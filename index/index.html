@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Colmar Academy</title>
-    <link href="./resources/style.css" type="text/css" rel="stylesheet"/>
+    <link href="../resources/style.css" type="text/css" rel="stylesheet"/>
 
   </head>
   <body>
@@ -12,15 +12,15 @@
     <header>
       <div class='logo'>
         <img src="../resources/media/images/ic-logo.svg" alt="colmar academy logo" />
-        <span id="left">Colmar </span>
-        <span id="right">Academy </span>
+        <span id="left">COLMAR </span>
+        <span id="right">ACADEMY </span>
       </div>
+
       <nav>
         <span><a href="#"> On Campus </a></span>
         <span><a href="#"> Online or Companies </a></span>
         <span><a href="#"> Sign in </a></span>
       </nav>
-
     </header>
 
     <!-- top banner section -->
@@ -31,13 +31,16 @@
       <div class ="text">
         <h1> Learn something new everyday </h1>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        <a href="#" class="button"> Start </a>
+        <div class="button">
+          <a href="#"> Start here</a>
+        </div>
       </div>
     </div>
 
     <!-- second banner/main info section -->
     <div class ="banner">
-      <div class ="main">
+
+      <div class ="image">
         <img src="../resources/media/images/information-main.jpg" alt="studying"/>
         <h1> It doesn't hurt to keep practicing </h1>
         <p> "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -45,7 +48,7 @@
       </div>
 
       <div class="list">
-        <div class ="image">
+        <div class ="image-row">
           <img src="../resources/media/images/information-orientation.jpg" alt="orientation"/>
           <span class="info">
             <h3> Orientation date </h3>
@@ -53,7 +56,8 @@
             <a href="#"> Read more </a>
           </span>
         </div>
-        <div class="image">
+
+        <div class="image-row">
           <img src="../resources/media/images/information-campus.jpg" alt="campus"/>
           <span class="info">
             <h3> Our campus </h3>
@@ -61,7 +65,8 @@
             <a href="#"> Read more </a>
           </span>
         </div>
-        <div class="image">
+
+        <div class="image-row">
           <img src="../resources/media/images/information-guest-lecture.jpg" alt="guest"/>
           <span class ="info">
             <h3> Our guest lecture </h3>
@@ -70,73 +75,110 @@
           </span>
         </div>
       </div>
-
+    </div>
   <!-- Course galery -->
-      <div class = "galery">
+    <div class = "galery">
         <div class = "title">
-          <h3> Start learning </h3>
+          <h1> Start learning </h1>
         </div>
-        <div class="content">
+        <div class="content-row">
+          <div class="image-col">
+            <img src="../resources/media/images/course-software.jpg" alt="software"/>
+            <div class="sub">
+              <h2> Software engineering </h2>
+              <h3> COURSES </h3>
+              <p> Web Development, Mobile Development, iOT, APIs </p>
+            </div>
+          </div>
+          <div class ="image-col">
+            <img src="../resources/media/images/course-computer-art.jpg" alt="computer"/>
+            <div class="sub">
+              <h2> Computer Art </h2>
+              <h3> COURSES </h3>
+              <p> Imaging &amp Design, Web Design, Motion Graphics &amp Visual Effects, Computer Animations </p>
+            </div>
+          </div>
+          <div class="image-col">
+            <img src="../resources/media/images/course-design.jpg" alt="design"/>
+            <div class="sub">
+              <h2> Design </h2>
+              <h3> COURSES </h3>
+              <p> User Experience Design, User Research, Visual Design </p>
+            </div>
+          </div>
+        </div>
+        <div class="content-row">
           <div class ="image-col">
             <img src="../resources/media/images/course-data.jpg" alt="data"/>
-            <h3> Data </h3>
-            <h3> Courses </h3>
-            <p> Data Science, Bid Data, SQL, Data Visualization </p>
+            <div class="sub">
+              <h2> Data </h2>
+              <h3> COURSES </h3>
+              <p> Data Science, Bid Data, SQL, Data Visualization </p>
+            </div>
           </div>
 
           <div class ="image-col">
             <img src="../resources/media/images/course-business.jpg" alt="business"/>
-            <h3> Business </h3>
-            <h3> Course </h3>
-            <p> Product Development, Business Development, Startup </p>
+            <div class="sub">
+              <h2> Business </h2>
+              <h3> COURSES </h3>
+              <p> Product Development, Business Development, Startup </p>
+            </div>
           </div>
 
           <div class="image-col">
             <img src="../resources/media/images/course-marketing.jpg" alt="marketing"/>
-            <h3> Marketing </h3>
-            <h3> Courses </h3>
-            <p> Analytics, Content Marketing, Mobile Marketing </p>
+            <div class="sub">
+              <h2> Marketing </h2>
+              <h3> COURSES </h3>
+              <p> Analytics, Content Marketing, Mobile Marketing </p>
+            </div>
           </div>
         </div>
       </div>
+  </div>
+
 <!--Thesis exhibit -->
       <div class="thesis">
-        <div class="heading">
-          <h3> Thesis Exhibit </h3>
+        <div class="title">
+          <h1> Thesis Exhibit </h1>
         </div>
 
-        <div class="video">
-          <video src="../resources/media/video/thesis.mp4"/></video>
-          <h3> Reimagine urban </h3>
-          <p> "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commondo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-        </div>
+        <div class="banner">
 
-        <div class="list">
-          <div class="image">
-            <img src="../resources/media/images/thesis-fisma.jpg" alt="fisma"/>
-            <span>
-               <h3> Fisma: Design and Prototype </h3>
-               <p> Designer showercase of new prototype product </p>
-            </span>
+          <div class="video">
+            <video src="../resources/media/videos/thesis.mp4"/></video>
+            <h2> Reimagine urban </h2>
+            <p> "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commondo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
           </div>
-          <div class="image">
-            <img src="../resources/media/images/thesis-now-and-then.jpg" alt "new york"/>
-            <span>
-              <h3> Now and then </h3>
-              <p> Research study about New York </p>
-            </span>
+
+          <div class="list">
+            <div class="image-row" id="shade">
+              <img src="../resources/media/images/thesis-fisma.jpg" alt="fisma"/>
+              <span>
+                 <h3> Fisma: Design and Prototype </h3>
+                 <p> Designer showercase of new prototype product </p>
+              </span>
+            </div>
+
+            <div class="image-row">
+              <img src="../resources/media/images/thesis-now-and-then.jpg" alt "new york"/>
+              <span>
+                <h3> Now and then </h3>
+                <p> Research study about New York </p>
+              </span>
+            </div>
           </div>
         </div>
 
   <!--footer-->
      <footer>
         <p> &copy 2016 Colmar Academy. All rights reserved </p>
-        <span>
-          <ul>
-            <li><a href="#"> Terms </a></li>
-            <li><a href="#"> Privacy </a></li>
-         </ul>
-        </span>
+        <nav>
+          <span><a href="#"> Terms </a></span>
+          <span><a href="#"> Privacy </a></span>
+
+        </nav>
 
      </footer>
 

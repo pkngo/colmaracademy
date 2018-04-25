@@ -1,0 +1,221 @@
+html {
+  font-size: 18px;
+  font-family: "Quattrocento Sans";
+  color: rgb(105,105,105);
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://fonts.gstatic.com/s/quattrocentosans/v10/va9c4lja2NVIDdIAAoMR5MfuElaRB0zHt0_uHA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Quattrocento Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://fonts.gstatic.com/s/quattrocentosans/v10/va9c4lja2NVIDdIAAoMR5MfuElaRB0zJt08.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Header */
+ header {
+   display: flex;
+   width: 100%;
+   height: 64px;
+   top: 0px;
+   position: fixed;
+   z-index: 1;
+   align-items: center;
+   background-color: white;
+
+ }
+
+ .logo, footer p{
+   display: flex;
+   flex-grow:1;
+   align-items: center;
+ }
+
+.logo img{
+  padding-left: 24px;
+  height: 32px
+
+}
+#left {
+  color: rgba(64,57,57,0.8);
+  font-size: 24px;
+}
+#right {
+  color: rgb(211,211,211);
+  font-size: 24px;
+}
+
+header a, footer a{
+  color: rgb(64,67,57);
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+header nav{
+  margin-right: 24px;
+}
+
+
+/* top banner section*/
+.topbanner {
+
+  display: flex;
+  position: relative;
+  margin-top: 64px;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(220,220,220);
+}
+.image{
+  display:inline-flex;
+  flex-direction:column;
+  width: 60%;
+  padding: 32px 24px;
+  flex-shrink:2;
+}
+.text {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: left;
+
+  padding-left: 24px;
+  margin: 0px;
+}
+.text p{
+  font-size: 2rem;
+  font-weight: bold;
+  top: 0px;
+
+}
+.text h1, .title h1{
+  font-size: 3.75rem;
+  color: rgb(64,67,57);
+}
+
+.button{
+
+  background-color: rgb(64,67,57);
+  height: 60px;
+  margin-right:24px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+
+
+}
+.button a {
+  font-size: 1.2rem;
+  margin: 8px auto;
+  color: white;
+  text-decoration: none;
+}
+
+/* second banner/main section */
+.banner{
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+
+}
+.list{
+  display: inline-flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 32px 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+}
+.image-row{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.5px solid lightgrey;
+  padding: auto 0px;
+
+}
+.image-row img{
+  width: 35%;
+  height: auto;
+  padding: 50px 16px;
+
+}
+.info a{
+  text-decoration: none;
+  color: rgb(64,224,208);
+}
+.name{
+  color: rgb(64, 67, 57);
+}
+
+/* Star learning Section */
+.galery {
+ background-color: rgb(220,220,220);
+ padding: 16px auto;
+ border: 0.5px solid lightgrey;
+}
+.title{
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+}
+
+
+.content-row{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin: 0px 72px;
+  padding:0px 0px;
+  justify-content: space-between;
+
+}
+.image-col  {
+ width: 30%;
+ background-color: white;
+ margin: 32px auto;
+
+}
+.image-col img{
+  flex-shrink:1;
+  width: 100%;
+  height: 50%;
+}
+
+.galery p, .thesis p{
+  font-size: 1.125rem;
+}
+.sub{
+  padding:0px 8px;
+}
+/*thesis*/
+.video {
+  display:inline-flex;
+  flex-direction: column;
+  width:60%;
+  margin: 16px 16px;
+  align-items: flex-start;
+}
+video {
+  width: 100%;
+}
+#shade{
+  background-color: rgb(220,220,220);
+}
+
+/* footer */
+footer {
+  display: flex;
+  position: relative;
+  padding:16px 24px;
+  align-items: center;
+}
